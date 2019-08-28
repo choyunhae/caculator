@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outcomeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OutcomeActivity"
+    tools:layout_editor_absoluteX="13dp"
+    tools:layout_editor_absoluteY="10dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="409dp"
+        android:layout_height="816dp"
+        android:layout_marginTop="8dp"
+        android:fadeScrollbars="false"
+        android:nestedScrollingEnabled="false"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="97dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/save"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.006" />
+
+            <Button
+                android:id="@+id/button_receipt"
+                android:layout_width="54dp"
+                android:layout_height="55dp"
+                android:text="@string/button"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_won"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.731"
+                app:layout_constraintStart_toEndOf="@+id/edit_amount"
+                app:layout_constraintTop_toTopOf="@+id/text_won"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/text_date"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.517"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_won"
+                android:layout_width="61dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/won"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/edit_amount"
+                app:layout_constraintEnd_toStartOf="@+id/button_receipt"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/edit_amount"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup_isCash"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/text_outcome"
+                android:layout_width="264dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="지출"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.113"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.006" />
+
+            <ImageView
+                android:id="@+id/imageView_receipt"
+                android:layout_width="379dp"
+                android:layout_height="408dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.187"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_comment"
+                app:layout_constraintVertical_bias="0.0"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/text_category"
+                android:layout_width="135dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/category"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.034"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.206" />
+
+            <EditText
+                android:id="@+id/edit_comment"
+                android:layout_width="360dp"
+                android:layout_height="181dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/comment"
+                android:inputType="textMultiLine"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.497"
+                tools:ignore="MissingConstraints" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_isCash"
+                android:layout_width="361dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:checkedButton="@id/radio_cash"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@id/edit_amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_date">
+
+                <RadioButton
+                    android:id="@+id/radio_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cash"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:id="@+id/radio_card"
+                    android:layout_width="178dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/card"
+                    android:textAllCaps="false"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text_recognizedTexts"
+                android:layout_width="366dp"
+                android:layout_height="198dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="165dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView_receipt" />
+
+            <EditText
+                android:id="@+id/edit_amount"
+                android:layout_width="255dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/amount"
+                android:inputType="number"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/text_category"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.106"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup_isCash"
+                tools:ignore="MissingConstraints" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_category"
+                android:layout_width="378dp"
+                android:layout_height="241dp"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="304dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/edit_comment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radio_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/food"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_shop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/shop"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_communication"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/transport"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/etc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_tax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/residence"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_carry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tax"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_residence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/communication"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

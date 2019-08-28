@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">가계부</string>
+
+    <!--<string name="select_image_for_text_recognition">Select image for text recognition</string><string name="find_text_button">Find text</string><string name="find_face_contour_button">Find face contour</string><string name="find_text_cloud_button">Find text (cloud)</string><string name="find_objects_button">Find objects</string> -->
+
+
+    <!-- MAIN -->
+
+
+    <string name="default_calendar">Default calendar</string>
+
+    <string name="open_calendar_dialog">Open calendar dialog</string>
+
+    <string name="change_attributes_programmatically">Change attributes programmatically</string>
+
+    <!-- MENU -->
+
+
+    <string name="select_all_fridays">Select All Fridays</string>
+
+    <string name="unselect_all_fridays">Unselect All Fridays</string>
+
+    <string name="select_three_months">Select Prev/Curr/Next Months</string>
+
+    <string name="unselect_three_months">Unselect Prev/Curr/Next Months</string>
+
+    <string name="clear_selections">Clear selections</string>
+
+    <string name="log_selected_days">Log selected days</string>
+
+    <!--하단부-->
+
+
+    <string name="calendar">calendar</string>
+
+    <string name="graph">graph</string>
+
+    <string name="botton">botton</string>
+
+    <string name="button">+</string>
+
+    <string name="incomeButton">수 입</string>
+
+    <string name="outcomeButton">지 출</string>
+
+    <string name="cash">현금</string>
+
+    <string name="income">수입</string>
+
+    <string name="amount">금 액</string>
+
+    <string name="comment">메모</string>
+
+    <string name="category">카테고리</string>
+
+    <string name="pocketMoney">용돈</string>
+
+    <string name="salary">월급</string>
+
+    <string name="carry">이월</string>
+
+    <string name="etc">기타</string>
+
+    <string name="card">카드</string>
+
+    <string name="save">저장</string>
+
+    <string name="won">원</string>
+
+    <string name="food">식비</string>
+
+    <string name="shop">쇼핑/외식</string>
+
+    <string name="tax">세금</string>
+
+    <string name="residence">주거</string>
+
+    <string name="communication">통신</string>
+
+    <string name="transport">교통</string>
+
+    <string name="textview">TextView</string>
+    <string name="permission2">사진 밑 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+    <string name="permission1"><![CDATA[[설정] > [권한] 에서 권한을 허용할 수 있습니다.]]></string>
+</resources>

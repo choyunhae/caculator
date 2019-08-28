@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/calendar"
+
+        android:visible="true" />
+
+
+    <item
+        android:id="@+id/action_graph"
+        android:enabled="true"
+        android:title="@string/graph"
+        android:icon="@drawable/ic_graph"
+
+          />
+
+</menu>

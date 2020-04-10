@@ -77,33 +77,31 @@
 
 <테스팅 계획 및 결과>
 
->>>- 수입 : 1.‘수입’버튼을 클릭한다.
+      >>>- 수입 : 1.‘수입’버튼을 클릭한다.
          2. 현금/카드 중 하나를 선택한다.
          3. 카테고리를 선택한다.
          4. 금액을 입력하고 코멘트를 입력한다.
          5. 저장버튼을 누르면 데이터 베이스에 정보가 저장된다.
          6. 달력화면에서 리스트로 확인한다.
 
->>>-지출  : 1. '지출 버튼을 클릭한다.
+      >>>- 지출  : 1. '지출 버튼을 클릭한다.
          2. 영수증 이미지 접근 권한을 얻는다.
          3. 현금/카드 중 하나를 선택한다.
          4. 카테고리를 선택한다.
          5. 금액을 입력하고 코멘트를 입력한다.
-	 
-        >>>>5-1. +버튼을 클릭해 저장되있는 영수증 이미지 중 하나를 선택한다.
-        >>>>5-2. 금액을 자동으로 입력받는다.
-	
+	 5-1. '+'버튼을 클릭해 저장되있는 영수증 이미지 중 하나를 선택한다.
+         5-2. 금액을 자동으로 입력받는다.
          6. 저장버튼을 누르면 데이터 베이스에 정보가 저장된다.
          7. 달력화면에서 리스트로 확인한다.
          8. 그래프로 소비패턴을 확인한다.
  
 >>><테스트 화면>
 
-  *<img src="https://user-images.githubusercontent.com/54641007/78698929-09f1db80-793e-11ea-84c2-0a7367867d0e.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698931-0bbb9f00-793e-11ea-8914-a66db566114a.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698933-0bbb9f00-793e-11ea-91d9-fb720a58b3e8.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698934-0c543580-793e-11ea-8aa7-d119af522b63.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698938-0ceccc00-793e-11ea-8981-e387a7d2a758.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698944-0d856280-793e-11ea-9d1a-219bad69d1c0.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698946-0d856280-793e-11ea-92d7-9cf4c08579fc.png" width="10%">
-  *<img src="https://user-images.githubusercontent.com/54641007/78698949-0e1df900-793e-11ea-92d4-1768ab1563b8.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698929-09f1db80-793e-11ea-84c2-0a7367867d0e.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698931-0bbb9f00-793e-11ea-8914-a66db566114a.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698933-0bbb9f00-793e-11ea-91d9-fb720a58b3e8.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698934-0c543580-793e-11ea-8aa7-d119af522b63.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698938-0ceccc00-793e-11ea-8981-e387a7d2a758.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698944-0d856280-793e-11ea-9d1a-219bad69d1c0.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698946-0d856280-793e-11ea-92d7-9cf4c08579fc.png" width="10%">
+      *<img src="https://user-images.githubusercontent.com/54641007/78698949-0e1df900-793e-11ea-92d4-1768ab1563b8.png" width="10%">

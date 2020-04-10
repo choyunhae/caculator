@@ -1,5 +1,5 @@
 
-# calculator
+# Calculator
 <html></html>
 
 >1. 과제 개요

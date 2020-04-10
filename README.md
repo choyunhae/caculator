@@ -1,7 +1,6 @@
 
-<html></html>
 # calculator
-
+<html></html>
 >1. 과제 개요
   - 주제에 대한 전반적인 내용을 요약해서 기술
  
@@ -95,7 +94,7 @@
          7. 달력화면에서 리스트로 확인한다.
          8. 그래프로 소비패턴을 확인한다.
  
->>><테스트 화면>
+<테스트 화면>
 ![갤러리_영수증저장](https://user-images.githubusercontent.com/54641007/78698929-09f1db80-793e-11ea-84c2-0a7367867d0e.png)
 ![달력](https://user-images.githubusercontent.com/54641007/78698931-0bbb9f00-793e-11ea-8914-a66db566114a.png)
 ![달력에서 내역확인](https://user-images.githubusercontent.com/54641007/78698933-0bbb9f00-793e-11ea-91d9-fb720a58b3e8.png)
